@@ -1,4 +1,3 @@
-import json
 from flask import Flask, request, send_from_directory, jsonify
 from flask_cors import CORS
 from app.search.justwatch import JustWatch

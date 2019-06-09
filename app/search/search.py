@@ -1,14 +1,14 @@
 import requests
 
-"""
-Search base class
-"""
 
 TIMEOUT = 6
 ALLOW_REDIRECTS = True
 
 
 class Search(object):
+    """
+    Search requests base class
+    """
 
     @staticmethod
     def search_query(url: str, params: dict) -> dict:
