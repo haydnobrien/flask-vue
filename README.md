@@ -5,12 +5,12 @@
 python run [-p PORT]
 ```
 
-### Installation 
+### Install PIP and NPM packages
 ```
-npm run install
+npm run init
 ```
 
-### Build 
+### Build
 ```
 npm run build
 ```
